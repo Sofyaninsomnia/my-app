@@ -31,6 +31,6 @@ class DataController extends Controller
             'nama'  => $request->nama
         ]);
 
-        return redirect()->route('index');
+        return redirect()->route('index')->with('success', 'Data berhasil di tambahkan!');
     }
 }
