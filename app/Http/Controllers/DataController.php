@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Validator;
 class DataController extends Controller
 {
     public function index(){
+        // dd(session());
         $data = Data::all();
         return view('welcome', compact('data'));
     }
