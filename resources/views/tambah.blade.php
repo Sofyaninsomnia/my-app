@@ -14,6 +14,7 @@
 
     <div class="container">
         <form action="{{ route('store') }}" class="form-control mt-2" method="POST">
+            @csrf
             <div class="form-group mb-2">
                 <label for="nama">Nama</label>
                 <input type="text" class="form-control" name="nama">
