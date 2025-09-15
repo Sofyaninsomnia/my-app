@@ -13,7 +13,7 @@
 <body>
 
     <div class="container">
-        <button class="btn btn-primary mt-4">Tambah</button>
+        <a href="{{ route('tambah') }}" class="btn btn-primary mt-4">Tambah</a>
         <table class="table table-bordered mt-1">
             <thead>
                 <th>No</th>
