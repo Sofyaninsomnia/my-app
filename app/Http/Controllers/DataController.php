@@ -31,6 +31,6 @@ class DataController extends Controller
             'nama'  => $request->nama
         ]);
 
-        return redirect()->back();
+        return redirect()->route('index');
     }
 }
